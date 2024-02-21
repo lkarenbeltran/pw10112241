@@ -1,0 +1,13 @@
+body    {
+    border: 1px solid black;
+    font-size: 16px;/*1em*/
+    margin: 0px auto;
+    max-width: 1024px;
+}
+header{
+    background-color: #D1E3EE;
+}
+
+#logo{
+    margin: -150px 0px 0px 0px;
+}
