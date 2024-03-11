@@ -1,0 +1,28 @@
+html{
+    /*propiedades personalizables*/
+    --color-verde:#92bc14;
+    --color-negro:#565555;
+    --color-rojo:#D33040;
+    --color-gris:lightgray;
+}
+body{
+    font-size: 16px;/*1em*/
+    margin: 0px auto;/*centrado*/
+    max-width: 1024px;
+}
+header ul li{
+    display: inline-block;
+    width: 17%;
+}
+header ul li:nth-child(2){
+    background: var(--color-verde);
+}
+header ul li:nth-child(3){
+    background: var(--color-negro);
+}
+header ul li:nth-child(4){
+    background: var(--color-rojo);
+}
+header ul li:nth-child(5){
+    background: var(--color-gris);
+}
