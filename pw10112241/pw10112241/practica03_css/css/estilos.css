@@ -1,20 +1,38 @@
 html{
-    /*propiedades personalizables*/
-    --color-verde:#92bc14;
-    --color-negro:#565555;
-    --color-rojo:#D33040;
-    --color-gris:lightgray;
-    --fondo-negro:#2C2C2C;
+    /* Propiedades personalizadas */
+    --color-verde: #849C3C;
+    --color-negro: #353535;
+    --color-rojo: #D33040;
+    --color-gris: lightgray;
+    --fondo-negro: #2C2C2C;
     --color-linea: #949494;
-    --color-azul:lightblue;
-    --color-blanco:white;
-
+    --color-azul: lightblue;
+    --color-blanco: white;
 }
+
 body{
-    font-size: 16px;/*1em*/
-    margin: 0px auto;/*centrado*/
+    font-size: 16px;
+    margin: 0 auto;
     max-width: 1024px;
 }
+
+footer article{
+    display: inline-block;
+    margin-top: 20px;
+    vertical-align: top;
+    padding: 10px;
+    width: 31.1%;
+}
+
+footer img{
+    width: 300px;
+}
+
+header ul{
+    margin-left: -29px;
+    margin-right: -49px;
+}
+
 header ul li{
     display: inline-block;
     margin-left: -10px;
@@ -23,17 +41,21 @@ header ul li{
     width: 17%;
 }
 header ul li:nth-child(2){
-    background: var(--color-verde);
+    background-color: var(--color-verde)
 }
+
 header ul li:nth-child(3){
-    background: var(--color-negro);
+    background-color: var(--color-negro)
 }
+
 header ul li:nth-child(4){
-    background: var(--color-rojo);
+    background-color: var(--color-rojo)
 }
+
 header ul li:nth-child(5){
-    background: var(--color-gris);
+    background-color: var(--color-gris)
 }
+
 section article{
     display: inline-block;
     height: 280px;
@@ -57,24 +79,37 @@ section article:nth-child(5){
     background-color: var(--color-gris);
 }
 
+hr{
+    border-style: dashed;
+    color: var(--color-linea);
+}
+
 section,footer{
-    background: var(--fondo-negro);
+    background-color: var(--fondo-negro);
 }
 section img{
     width: 150px;
 }
+
 .letra-azul{
     color: var(--color-azul);
 }
+
 .letra-blanca{
     color: var(--color-blanco);
 }
+
 .letra-gris{
-    color:var(--color-linea);
+    color: var(--color-linea);
+}
+.read-more{
+    /* border: 1px solid red; */
+    margin-left: 220px;
 }
 .tam-menu-lateral{
     font-size: 1.1em;
 }
+
 .tam-tarjetas{
     font-size: 1.7em;
 }
