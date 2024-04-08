@@ -1,0 +1,50 @@
+body{
+    color: gray;
+    font-size: 16px;
+    margin: 0 auto;
+    max-width: 1024px;
+}
+
+header ul{
+    display: inline-block;
+}
+
+header ul li{
+    color: black;
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 20px 10px 0px;
+}
+
+hr{
+    border-style: dashed;
+}
+section article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#article1{
+    width: 55%;
+}
+#article2{
+    width: 44%;
+}
+
+#letra-titulo{
+    color: black;
+    font-size: 3.9em;
+    font-weight: bold;
+}
+
+#color-verde{
+    color: #73F33D;
+}
+
+#article1 img{
+    width: 45%;
+}
+
+#bici{
+    height: 100%;
+}
