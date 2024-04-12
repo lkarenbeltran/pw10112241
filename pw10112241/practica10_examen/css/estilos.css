@@ -1,0 +1,99 @@
+body{
+    background-color: rgba(255, 255, 255, 0.856);
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    margin: width 1024px; ;
+}
+nav{
+    display: inline-block;
+    margin: 0 10%;
+}
+nav ul li{
+    display: inline-block;
+    margin: 0 15px;
+}
+header img{
+    position: relative;
+    top: 18px;
+
+}
+#btnchangelog{
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 5px;
+    color: red;
+    font-weight: bold; 
+    margin-left: 15px;
+    padding: 10px 20px;
+    
+}
+#btncontact{
+    background-color: red;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold; 
+    margin-left: 15px;
+    padding: 10px 28px;
+}
+#art1secc1{
+    width: 60%;
+}
+
+#art2secc1{
+    margin-left: 10%;
+    width: 29%;
+}
+
+#seccion1{
+    margin-top: 100px;
+}
+
+#seccion1 article{
+    display: inline-block;
+    vertical-align: top;
+}
+
+#seccion1 img{
+    width: 100%;
+}
+
+#seccion2{
+    margin-top: 100px;
+}
+
+#seccion2 article{
+    background-color: rgba(255, 255, 255, 0.856);
+    border-radius: 5px;
+    display: inline-block;
+    padding: 50px 20px 25px 20px;
+    margin-top: 30px;
+    width: 18%;
+}
+
+#seccion2 article:not(last-child){
+    margin-right: 25px;
+}
+
+.letra_chica{
+    font-size: 1.6rem;
+}
+
+.letra_grande{
+    font-size: 3.2rem;
+}
+
+.letra_gris{
+    line-height: 1.5rem;
+    color: gray;
+}
+
+.letra_mediana{
+    font-size: 2.5rem;
+}
+
+
+.nito{
+    font-weight: bold;
+}
